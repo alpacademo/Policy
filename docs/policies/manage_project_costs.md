@@ -1,6 +1,6 @@
-# Policy Documentation
+# Manage Project Costs
 
-The `monthly_project_cost_violation` policy utilizes the `infracost` module to authenticate and estimate pricing values for infrastructure projects. The policy ensures that the total monthly cost of the infrastructure project does not exceed a specified budget.
+The `manage_project_costs` policy utilizes the `infracost` module to authenticate and estimate pricing values for infrastructure projects. The policy ensures that the total monthly cost of the infrastructure project does not exceed a specified budget.
 
 ## Import Statement
 
@@ -74,7 +74,7 @@ logs:
       ┃ /tmp/upload_90651c90e9fd46163fb45aefd06bd789       ┃ $743         ┃
       ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛
     trace:
-      monthly_project_cost_violation.sentinel:9:1 - Rule "main"
+      manage_project_costs.sentinel:9:1 - Rule "main"
         Description:
           The cost of your infrastructure project should not exceed
           $1000.00 a month
