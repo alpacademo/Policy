@@ -13,7 +13,7 @@ This repository contains a library of policies that can be used within Terraform
 - [Setup & Integration](#setup--integration)
 - [Useful Resources](#useful-resources)
 - [Contribution Guide](#contribution-guide)
-  
+
 ---
 
 ## Prerequisites
@@ -129,7 +129,7 @@ Once the Policy Set is configured, it's time to enforce this configuration on a 
 
 When you add policy sets to a workspace, Terraform Cloud enforces those policy sets on every Terraform run. Terraform Cloud displays the results of policy checks in the UI for each run.
 
-![Sentinel Policy Check](./images/tfc-run-experience.png)
+![](./images/tfc-run-experience.png)
 
 ---
 
