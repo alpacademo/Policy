@@ -97,7 +97,7 @@ Once VCS is integrated with Terraform Cloud, configure your Terraform Policy Set
     }
 
     policy "manage_project_costs" {
-      source = "./policies/manage_project_costs/manage_project_costs.sentinel"
+      source            = "./policies/manage_project_costs/manage_project_costs.sentinel"
       enforcement_level = "hard-mandatory"
     }
     ```
@@ -123,7 +123,9 @@ Once the Policy Set is configured, it's time to enforce this configuration on a 
    - **Workspaces**: A **Workspaces** section appears on the bottom of the form when you scope the policy set to selected workspaces. Select workspaces where Terraform Cloud should apply the policy set.
    - **VCS Branch**: Specify the branch within your VCS repository where Terraform Cloud should import new versions of policies. If you do not set this field, Terraform Cloud uses the default branch of the VCS repository you selected.
    - **Policies Path**: Specify the sub-directory in your VCS repository containing the policy set files. This action lets you maintain multiple policy sets within a single repository. Set this field to the directory path that contains the `sentinel.hcl` configuration file for the policy set.
-   - **Sentinel Parameters:** Add a new *Sensitive* parameter called **x_api_key** that contains the Infracost organization API key that was created in the [prerequisites](#prerequisites)
+   - **Sentinel Parameters:**
+       - Add a *sensitive* parameter called **x_api_key** that contains the Infracost organization API key that was created in the [prerequisites](#prerequisites)
+       - Add a *sensitive* parameter called **budget** that is the maximum decimal dollar value that is applied to all infrastructure projects. 
 
 ### Policy Enforcement Experience
 
