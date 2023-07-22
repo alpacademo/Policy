@@ -23,7 +23,7 @@ Before you start adopting policies within this library, it is recommended that y
 1. [Install](https://docs.hashicorp.com/sentinel/intro/getting-started/install/) the Sentinel CLI.
 
 2. Visit https://app.terraform.io/signup/account and follow the prompts to create a free Terraform Cloud account.
-3. Have access to a [supported](https://www.terraform.io/docs/cloud/vcs/index.html#supported-vcs-providers) version control system (VCS) provider.
+3. Gain access to a [supported](https://www.terraform.io/docs/cloud/vcs/index.html#supported-vcs-providers) version control system (VCS) provider.
 4. Sign up for an Infracost Cloud organization by following the [Get Started](https://www.infracost.io/docs/infracost_cloud/get_started/) guide.
 5. Retrieve your [API key](https://www.infracost.io/docs/infracost_cloud/key_concepts/#api-keys) from your Infracost Cloud Org Settings.
 
