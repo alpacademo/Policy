@@ -2,7 +2,7 @@
 
 This document provides guidance on contribution recommended practices. It covers what we're looking for in order to help set some expectations and help you get the most out of participation in this project.
 
-To record a bug report, enhancement proposal, or give any other product feedback, please [open a GitHub issue](https://github.com/hcrhall/sentinel-infracost-module/issues/new/choose) using the most appropriate issue template. Please do fill in all of the information the issue templates request, because know from experience that this will maximize the chance that we'll be able to act on your feedback.
+To record a bug report, enhancement proposal, or give any other product feedback, please [open a GitHub issue](https://github.com/terraworx/policy-library-infracost/issues/new/choose) using the most appropriate issue template. Please do fill in all of the information the issue templates request, because know from experience that this will maximize the chance that we'll be able to act on your feedback.
 
 ---
 
@@ -23,7 +23,7 @@ To record a bug report, enhancement proposal, or give any other product feedback
 
 In order to be respectful of the time of contributors, we aim to discuss potential changes in GitHub issues prior to implementation. That will allow us to give design feedback up front and set expectations about the scope of the change, and, for larger changes, how best to approach the work such that the Terraform Compliance team can review it and merge it along with other concurrent work.
 
-If the bug you wish to fix or enhancement you wish to implement isn't already covered by a GitHub issue that contains feedback from the Terraform Compliance team, please do start a discussion (either in [a new GitHub issue](https://github.com/hcrhall/sentinel-infracost-module/issues/new/choose) or an existing one, as appropriate) before you invest significant development time. If you mention your intent to implement the change described in your issue, the Terraform Compliance team can, as best as possible, prioritize including implementation-related feedback in the subsequent discussion.
+If the bug you wish to fix or enhancement you wish to implement isn't already covered by a GitHub issue that contains feedback from the Terraform Compliance team, please do start a discussion (either in [a new GitHub issue](https://github.com/terraworx/policy-library-infracost/issues/new/choose) or an existing one, as appropriate) before you invest significant development time. If you mention your intent to implement the change described in your issue, the Terraform Compliance team can, as best as possible, prioritize including implementation-related feedback in the subsequent discussion.
 
 At this time, we do not have a formal process for reviewing outside proposals that significantly change the Sentinel policy workflow, its primary usage patterns, and its language. For large proposals that could entail a significant investment, we wish to be up front with potential contributors that, unfortunately, we are unlikely to be able to give prompt feedback. We are still interested in hearing about your use-cases so that we can consider ways to meet them as part of other larger projects.
 
@@ -72,7 +72,7 @@ Use Git to clone this repository into a location of your choice.
 Switch into the root directory of the cloned repository and ensure that the Sentinel CLI is working as expected:
 
 ```
-cd policy-library-aws-networking-terraform
+cd policy-library-infracost
 sentinel version
 ```
 
