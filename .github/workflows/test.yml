@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - master
 jobs:
   sentinel-format:
     runs-on: ubuntu-latest
