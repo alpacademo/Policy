@@ -1,6 +1,6 @@
 import "decimal"
 
-func auth(token) {
+func estimate(token) {
 	return {
 		"data": {
             "projects": [
@@ -16,7 +16,7 @@ func auth(token) {
 	}
 }
 
-func estimate(input) {
+func estimates(input) {
 	return {
 		"less_than": func(i) {
 			return to_float(input) < i
