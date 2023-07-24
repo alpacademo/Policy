@@ -3,14 +3,14 @@ import "json"
 import "decimal"
 import "tfplan/v2" as tfplan
 
-func auth(token) {
+func estimate(token) {
 	return {
 		"data":    as_json(token),
 		"summary": as_table(token),
 	}
 }
 
-func estimate(input) {
+func estimates(input) {
 	return {
 		"less_than": func(i) {
 			return to_float(input) < i

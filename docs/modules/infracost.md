@@ -14,7 +14,7 @@ It also imports a third-party library:
 
 - "tfplan/v2" as tfplan: This library is used to access the Terraform Plan.
 
-## Function: auth(token)
+## Function: estimate(token)
 
 This function takes a `token` parameter and returns an object containing the data and summary of the token.
 
@@ -289,7 +289,7 @@ This function takes a `token` parameter and returns an object containing the dat
 }
 ``````
 
-## Function: estimate(input)
+## Function: estimates(input)
 
 This function takes an `input` parameter and returns an object with comparison functions.
 
